@@ -4,4 +4,5 @@ on: [workflow_dispatch]
 
 jobs:
   call-workflow-in-local-repo:
+    name: call workcenas
     uses: ./.github/workflows/pylint.yml
